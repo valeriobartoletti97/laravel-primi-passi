@@ -20,6 +20,6 @@
     </head>
     <body class="antialiased">
         <h1>Hello World</h1>
-        <h3>{{$name}} {{$surname}}</h3>
+        <h3>Mi chiamo {{$name}} {{$surname}}, {{$greetings}}</h3>
     </body>
 </html>
