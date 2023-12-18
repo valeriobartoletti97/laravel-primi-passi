@@ -20,3 +20,9 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+Route::get('/about-me', function () {
+    $data = [
+        'text' => 'Ciao mi chiamo Valerio e mi sto divertendo a fare tutto questo all\'una di notte di Domenica perchè nei giorni precedenti ho dovuto cambiare i pezzi del mio Pc :)'
+    ];
+    return view('pages.about', $data);
+});
